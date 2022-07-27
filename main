@@ -1,0 +1,999 @@
+local ScreenGui = Instance.new("ScreenGui")
+local heart = Instance.new("Frame")
+local shadow = Instance.new("Frame")
+local ambientShadow = Instance.new("ImageLabel")
+local ambientShadow_2 = Instance.new("ImageLabel")
+local mpsframe = Instance.new("Frame")
+local mpsscriptholder = Instance.new("ScrollingFrame")
+local acframe = Instance.new("Frame")
+local acscript = Instance.new("TextButton")
+local adb = Instance.new("ImageButton")
+local infoframe = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local speedframe = Instance.new("Frame")
+local speedscript = Instance.new("TextButton")
+local local_car_wash = Instance.new("ImageButton")
+local select = Instance.new("Frame")
+local mps = Instance.new("TextButton")
+local tps = Instance.new("TextButton")
+local credits = Instance.new("TextButton")
+local update = Instance.new("TextButton")
+local LogText = Instance.new("TextLabel")
+local tpsframe = Instance.new("Frame")
+local scriptholder = Instance.new("ScrollingFrame")
+local reachframe = Instance.new("Frame")
+local reach = Instance.new("TextButton")
+local person = Instance.new("ImageButton")
+local levelframe = Instance.new("Frame")
+local level1000 = Instance.new("TextButton")
+local hotel = Instance.new("ImageButton")
+local staminaframe = Instance.new("Frame")
+local staminascript = Instance.new("TextButton")
+local local_car_wash_2 = Instance.new("ImageButton")
+local reactframe = Instance.new("Frame")
+local react = Instance.new("TextButton")
+local mood = Instance.new("ImageButton")
+local deleteanticheatframe = Instance.new("Frame")
+local MoreScripts = Instance.new("TextButton")
+local done = Instance.new("ImageButton")
+local creditsframe = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local check = Instance.new("ImageButton")
+local check_2 = Instance.new("ImageButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local update_2 = Instance.new("ScrollingFrame")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextLabel_7 = Instance.new("TextLabel")
+local Welcome = Instance.new("Frame")
+local shadowHolder = Instance.new("Frame")
+local Enter = Instance.new("TextButton")
+local logo = Instance.new("ImageLabel")
+local key = Instance.new("Frame")
+local shadowHolder_2 = Instance.new("Frame")
+local key_2 = Instance.new("TextBox")
+local login = Instance.new("TextButton")
+local shadowHolder_3 = Instance.new("Frame")
+local umbraShadow = Instance.new("ImageLabel")
+local penumbraShadow = Instance.new("ImageLabel")
+local ambientShadow_3 = Instance.new("ImageLabel")
+local TitleKey = Instance.new("TextLabel")
+ 
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+heart.Name = "heart"
+heart.Parent = ScreenGui
+heart.BackgroundColor3 = Color3.new(0.141176, 0.141176, 0.141176)
+heart.BorderColor3 = Color3.new(0, 0, 0)
+heart.Position = UDim2.new(0.218365759, 0, 0.276370794, 0)
+heart.Size = UDim2.new(0, 536, 0, 273)
+heart.Active = true
+heart.Draggable = true
+heart.Visible = false
+
+shadow.Name = "shadow"
+shadow.Parent = heart
+shadow.BackgroundTransparency = 1
+shadow.BorderColor3 = Color3.new(0, 0, 0)
+shadow.Size = UDim2.new(0.897560954, 0, 0.919191897, 0)
+
+ambientShadow.Name = "ambientShadow"
+ambientShadow.Parent = shadow
+ambientShadow.AnchorPoint = Vector2.new(0.5, 0.5)
+ambientShadow.BackgroundTransparency = 1
+ambientShadow.Position = UDim2.new(0.5, 0, 0.494505495, 0)
+ambientShadow.Size = UDim2.new(1.02641511, 4, 1.06227112, 4)
+ambientShadow.Image = "rbxassetid://1316045217"
+ambientShadow.ImageColor3 = Color3.new(0, 0, 0)
+ambientShadow.ImageTransparency = 0.87999999523163
+ambientShadow.ScaleType = Enum.ScaleType.Slice
+ambientShadow.SliceCenter = Rect.new(10, 10, 118, 118)
+
+ambientShadow_2.Name = "ambientShadow"
+ambientShadow_2.Parent = ambientShadow
+ambientShadow_2.AnchorPoint = Vector2.new(0.5, 0.5)
+ambientShadow_2.BackgroundTransparency = 1
+ambientShadow_2.BorderColor3 = Color3.new(0, 0, 0)
+ambientShadow_2.Position = UDim2.new(0.498175174, 0, 0.521716356, 0)
+ambientShadow_2.Size = UDim2.new(1.02641511, 4, 1.06227112, 4)
+ambientShadow_2.Image = "rbxassetid://1316045217"
+ambientShadow_2.ImageColor3 = Color3.new(0, 0, 0)
+ambientShadow_2.ImageTransparency = 0.87999999523163
+ambientShadow_2.ScaleType = Enum.ScaleType.Slice
+ambientShadow_2.SliceCenter = Rect.new(10, 10, 118, 118)
+
+mpsframe.Name = "mpsframe"
+mpsframe.Parent = heart
+mpsframe.Active = true
+mpsframe.BackgroundColor3 = Color3.new(0.113725, 0.113725, 0.113725)
+mpsframe.BorderColor3 = Color3.new(0, 0, 0)
+mpsframe.Position = UDim2.new(0.17708993, 0, 0.0608739592, 0)
+mpsframe.Size = UDim2.new(0, 421, 0, 239)
+mpsframe.Visible = false
+
+mpsscriptholder.Name = "mps script holder"
+mpsscriptholder.Parent = mpsframe
+mpsscriptholder.Active = true
+mpsscriptholder.BackgroundColor3 = Color3.new(1, 1, 1)
+mpsscriptholder.BackgroundTransparency = 1
+mpsscriptholder.BorderColor3 = Color3.new(0, 0, 0)
+mpsscriptholder.Size = UDim2.new(0, 412, 0, 239)
+mpsscriptholder.BottomImage = ""
+mpsscriptholder.MidImage = ""
+mpsscriptholder.ScrollBarThickness = 0
+mpsscriptholder.TopImage = ""
+
+acframe.Name = "ac frame"
+acframe.Parent = mpsscriptholder
+acframe.BackgroundColor3 = Color3.new(0.0941177, 0.0941177, 0.0941177)
+acframe.BackgroundTransparency = 1
+acframe.BorderColor3 = Color3.new(0, 0, 0)
+acframe.Position = UDim2.new(-0.000992119312, 0, 0.142080769, 0)
+acframe.Size = UDim2.new(0, 192, 0, 50)
+
+acscript.Name = "acscript"
+acscript.Parent = acframe
+acscript.BackgroundColor3 = Color3.new(0.0941176, 0.0941176, 0.0941176)
+acscript.BorderColor3 = Color3.new(0, 0, 0)
+acscript.Position = UDim2.new(0.0364583321, 0, -1.10000002, 0)
+acscript.Size = UDim2.new(0, 193, 0, 65)
+acscript.Font = Enum.Font.Gotham
+acscript.Text = "Auto Catch"
+acscript.TextColor3 = Color3.new(1, 1, 1)
+acscript.TextSize = 14
+acscript.MouseButton1Click:Connect(function()
+	local Player = game.Players.LocalPlayer
+	local Mouse = Player:GetMouse()
+	Mouse.KeyDown:connect(function(catch)
+		catch:lower()
+		if catch == "0" then
+			for i,balls in pairs(game.Workspace:GetDescendants()) do
+				if balls.Name == "TPS" then
+					balls.Position = Player.Character["HumanoidRootPart"].Position
+				end
+			end
+		end
+	end)
+end)
+
+
+adb.Name = "adb"
+adb.Parent = acscript
+adb.BackgroundTransparency = 1
+adb.LayoutOrder = 3
+adb.Position = UDim2.new(0.130208373, 0, 0.199999988, 0)
+adb.Size = UDim2.new(0, 34, 0, 29)
+adb.ZIndex = 2
+adb.Image = "rbxassetid://3926307971"
+adb.ImageRectOffset = Vector2.new(164, 4)
+adb.ImageRectSize = Vector2.new(36, 36)
+
+infoframe.Name = "info frame"
+infoframe.Parent = mpsscriptholder
+infoframe.BackgroundColor3 = Color3.new(0.0941176, 0.0941176, 0.0941176)
+infoframe.BackgroundTransparency = 1
+infoframe.BorderColor3 = Color3.new(0, 0, 0)
+infoframe.Position = UDim2.new(-0.00242718449, 0, 0.418410033, 0)
+infoframe.Size = UDim2.new(0, 412, 0, 100)
+
+TextButton.Parent = infoframe
+TextButton.BackgroundColor3 = Color3.new(0.0941176, 0.0941176, 0.0941176)
+TextButton.BorderColor3 = Color3.new(0, 0, 0)
+TextButton.Position = UDim2.new(-0.00242718449, 0, -1.07000005, 0)
+TextButton.Size = UDim2.new(0, 413, 0, 107)
+TextButton.Font = Enum.Font.Bangers
+TextButton.Text = "More scripts coming soon!"
+TextButton.TextColor3 = Color3.new(1, 1, 1)
+TextButton.TextSize = 40
+
+speedframe.Name = "speed frame"
+speedframe.Parent = mpsscriptholder
+speedframe.BackgroundColor3 = Color3.new(0.0941176, 0.0941176, 0.0941176)
+speedframe.BackgroundTransparency = 1
+speedframe.BorderColor3 = Color3.new(0, 0, 0)
+speedframe.Position = UDim2.new(0, 0, 0.271966547, 0)
+speedframe.Size = UDim2.new(0, 193, 0, 70)
+
+speedscript.Name = "speedscript"
+speedscript.Parent = speedframe
+speedscript.BackgroundColor3 = Color3.new(0.0941176, 0.0941176, 0.0941176)
+speedscript.BorderColor3 = Color3.new(0, 0, 0)
+speedscript.Position = UDim2.new(1.07253885, 0, -1.67142844, 0)
+speedscript.Size = UDim2.new(0, 193, 0, 65)
+speedscript.Font = Enum.Font.Gotham
+speedscript.Text = "Speed"
+speedscript.TextColor3 = Color3.new(1, 1, 1)
+speedscript.TextSize = 14
+speedscript.MouseButton1Click:Connect(function()
+	local RunService = game:GetService("RunService")
+	RunService.RenderStepped:connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 21
+end)
+end)
+
+local_car_wash.Name = "local_car_wash"
+local_car_wash.Parent = speedscript
+local_car_wash.BackgroundTransparency = 1
+local_car_wash.LayoutOrder = 11
+local_car_wash.Position = UDim2.new(0.0569948182, 0, 0.314285725, 0)
+local_car_wash.Size = UDim2.new(0, 25, 0, 25)
+local_car_wash.ZIndex = 2
+local_car_wash.Image = "rbxassetid://3926305904"
+local_car_wash.ImageRectOffset = Vector2.new(924, 844)
+local_car_wash.ImageRectSize = Vector2.new(36, 36)
+
+select.Name = "select"
+select.Parent = heart
+select.BackgroundColor3 = Color3.new(0.113725, 0.113725, 0.113725)
+select.BorderColor3 = Color3.new(0, 0, 0)
+select.Position = UDim2.new(0.0342239439, 0, 0.0498849452, 0)
+select.Size = UDim2.new(0, 67, 0, 239)
+
+mps.Name = "mps"
+mps.Parent = select
+mps.BackgroundColor3 = Color3.new(0.0941176, 0.0941176, 0.0941176)
+mps.BorderColor3 = Color3.new(0, 0, 0)
+mps.Position = UDim2.new(0, 0, -0.00418408029, 0)
+mps.Size = UDim2.new(0, 68, 0, 50)
+mps.Font = Enum.Font.Gotham
+mps.Text = "MPS"
+mps.TextColor3 = Color3.new(1, 1, 1)
+mps.TextSize = 14
+
+tps.Name = "tps"
+tps.Parent = select
+tps.BackgroundColor3 = Color3.new(0.0941176, 0.0941176, 0.0941176)
+tps.BorderColor3 = Color3.new(0, 0, 0)
+tps.Position = UDim2.new(0, 0, 0.238493726, 0)
+tps.Size = UDim2.new(0, 67, 0, 50)
+tps.Font = Enum.Font.Gotham
+tps.Text = "TPS"
+tps.TextColor3 = Color3.new(0.956863, 0.956863, 0.956863)
+tps.TextSize = 14
+
+credits.Name = "credits"
+credits.Parent = select
+credits.BackgroundColor3 = Color3.new(0.0941176, 0.0941176, 0.0941176)
+credits.BorderColor3 = Color3.new(0, 0, 0)
+credits.Position = UDim2.new(0.0149253728, 0, 0.489539742, 0)
+credits.Size = UDim2.new(0, 66, 0, 50)
+credits.Font = Enum.Font.Gotham
+credits.Text = "Credits"
+credits.TextColor3 = Color3.new(1, 1, 1)
+credits.TextSize = 14
+
+update.Name = "update"
+update.Parent = select
+update.BackgroundColor3 = Color3.new(0.0941176, 0.0941176, 0.0941176)
+update.BorderColor3 = Color3.new(0, 0, 0)
+update.Position = UDim2.new(0.00599829853, 0, 0.733106554, 0)
+update.Size = UDim2.new(0, 66, 0, 50)
+update.Font = Enum.Font.Gotham
+update.Text = "Logs"
+update.TextColor3 = Color3.new(1, 1, 1)
+update.TextSize = 15
+
+LogText.Name = "LogText"
+LogText.Parent = heart
+LogText.BackgroundColor3 = Color3.new(1, 1, 1)
+LogText.BackgroundTransparency = 1
+LogText.BorderColor3 = Color3.new(0, 0, 0)
+LogText.Position = UDim2.new(-0.021946013, 0, -0.000688140281, 0)
+LogText.Size = UDim2.new(0, 530, 0, 17)
+LogText.Font = Enum.Font.Code
+LogText.Text = "KUGMT SCRIPT HUB"
+LogText.TextColor3 = Color3.new(1, 1, 1)
+LogText.TextSize = 18
+
+tpsframe.Name = "tpsframe"
+tpsframe.Parent = heart
+tpsframe.Active = true
+tpsframe.BackgroundColor3 = Color3.new(0.113725, 0.113725, 0.113725)
+tpsframe.BorderColor3 = Color3.new(0, 0, 0)
+tpsframe.Position = UDim2.new(0.1846371, 0, 0.0608739592, 0)
+tpsframe.Size = UDim2.new(0, 421, 0, 239)
+
+scriptholder.Name = "script holder"
+scriptholder.Parent = tpsframe
+scriptholder.Active = true
+scriptholder.BackgroundColor3 = Color3.new(0.0941176, 0.0941176, 0.0941176)
+scriptholder.BackgroundTransparency = 1
+scriptholder.BorderColor3 = Color3.new(0, 0, 0)
+scriptholder.Size = UDim2.new(0, 412, 0, 239)
+scriptholder.BottomImage = ""
+scriptholder.MidImage = ""
+scriptholder.ScrollBarThickness = 0
+scriptholder.TopImage = ""
+
+reachframe.Name = "reachframe"
+reachframe.Parent = scriptholder
+reachframe.BackgroundColor3 = Color3.new(0.0941177, 0.0941177, 0.0941177)
+reachframe.BackgroundTransparency = 1
+reachframe.BorderColor3 = Color3.new(0, 0, 0)
+reachframe.Position = UDim2.new(-0.000992119312, 0, 0.142080769, 0)
+reachframe.Size = UDim2.new(0, 192, 0, 50)
+
+reach.Name = "reach"
+reach.Parent = reachframe
+reach.BackgroundColor3 = Color3.new(0.0941176, 0.0941176, 0.0941176)
+reach.BorderColor3 = Color3.new(0, 0, 0)
+reach.Position = UDim2.new(0, 0, -1.10000002, 0)
+reach.Size = UDim2.new(0, 193, 0, 65)
+reach.Font = Enum.Font.Gotham
+reach.Text = "Reach"
+reach.TextColor3 = Color3.new(1, 1, 1)
+reach.TextSize = 14
+reach.MouseButton1Click:Connect(function()
+	local L_1_ = game.Players.LocalPlayer.Name
+	game:GetService("UserInputService").InputBegan:Connect(function(L_5_arg1, L_6_arg2)
+		if L_6_arg2 then
+			return
+		end
+		if L_5_arg1.KeyCode == Enum.KeyCode.E then
+			local L_7_ = game:GetService("Workspace").TPSSystem.TPS
+			local L_8_ = game:GetService("Workspace")[L_1_]["Right Leg"]
+			local L_9_ = game:GetService("Workspace").FE.Pass.DragBack
+			L_9_:FireServer(L_7_, L_8_)
+		end
+	end)
+	local L_2_ = game.Players.LocalPlayer.Name
+	game:GetService("UserInputService").InputBegan:Connect(function(L_10_arg1, L_11_arg2)
+		if L_11_arg2 then
+			return
+		end
+		if L_10_arg1.KeyCode == Enum.KeyCode.C then
+			local L_12_ = game:GetService("Workspace").TPSSystem.TPS
+			local L_13_ = game:GetService("Workspace")[L_2_]["Right Leg"]
+			local L_14_ = game:GetService("Workspace").FE.Dribble.FakeTouch
+			L_14_:FireServer(L_12_, L_13_)
+		end
+	end)
+	game:GetService("UserInputService").InputBegan:Connect(function(L_15_arg1, L_16_arg2)
+		if L_16_arg2 then
+			return
+		end
+		if L_15_arg1.KeyCode == Enum.KeyCode.X then
+			local L_17_ = game:GetService("Workspace").TPSSystem.TPS
+			local L_18_ = game:GetService("Workspace")[L_2_]["Right Leg"]
+			local L_19_ = game:GetService("Workspace").FE.Dribble.ChestControl
+			L_19_:FireServer(L_17_, L_18_)
+		end
+	end)
+	game:GetService("UserInputService").InputBegan:Connect(function(L_20_arg1, L_21_arg2)
+		if L_21_arg2 then
+			return
+		end
+		if L_20_arg1.KeyCode == Enum.KeyCode.Y then
+			local L_22_ = game:GetService("Workspace").TPSSystem.TPS
+			local L_23_ = game:GetService("Workspace")[L_2_]["Right Leg"]
+			local L_24_ = game:GetService("Workspace").FE.Dribble.TrickUp
+			L_24_:FireServer(L_22_, L_23_)
+		end
+	end)
+	game:GetService("UserInputService").InputBegan:Connect(function(L_25_arg1, L_26_arg2)
+		if L_26_arg2 then
+			return
+		end
+		if L_25_arg1.KeyCode == Enum.KeyCode.Q then
+			local L_27_ = game:GetService("Workspace").TPSSystem.TPS
+			local L_28_ = game:GetService("Workspace")[L_2_]["Right Leg"]
+			local L_29_ = game:GetService("Workspace").FE.Long.SkillLong
+			L_29_:FireServer(L_27_, L_28_)
+		end
+	end)
+	local L_3_ = game:GetService("Players").LocalPlayer
+	local L_4_ = L_3_:GetMouse()
+	L_4_.Button1Down:Connect(function(L_30_arg1)
+		local L_31_ = game:GetService("Workspace").TPSSystem.TPS
+		local L_32_ = game:GetService("Workspace")[L_2_]["Right Leg"]
+		local L_33_ = game:GetService("Workspace").FE.Dribble.Dribble
+		L_33_:FireServer(L_31_, L_32_)
+	end)
+end)
+
+
+person.Name = "person"
+person.Parent = reach
+person.BackgroundTransparency = 1
+person.Position = UDim2.new(0.108808286, 0, 0.307692319, 0)
+person.Size = UDim2.new(0, 25, 0, 25)
+person.ZIndex = 2
+person.Image = "rbxassetid://3926307971"
+person.ImageRectOffset = Vector2.new(884, 4)
+person.ImageRectSize = Vector2.new(36, 36)
+
+levelframe.Name = "levelframe"
+levelframe.Parent = scriptholder
+levelframe.BackgroundColor3 = Color3.new(0.0941176, 0.0941176, 0.0941176)
+levelframe.BackgroundTransparency = 1
+levelframe.BorderColor3 = Color3.new(0, 0, 0)
+levelframe.Position = UDim2.new(-0.00242718449, 0, 0.418410033, 0)
+levelframe.Size = UDim2.new(0, 412, 0, 100)
+
+level1000.Name = "level1000"
+level1000.Parent = levelframe
+level1000.BackgroundColor3 = Color3.new(0.0941176, 0.0941176, 0.0941176)
+level1000.BorderColor3 = Color3.new(0, 0, 0)
+level1000.Position = UDim2.new(0.00242718449, 0, -1.13, 0)
+level1000.Size = UDim2.new(0, 193, 0, 65)
+level1000.Font = Enum.Font.Gotham
+level1000.Text = "Level 1000"
+level1000.TextColor3 = Color3.new(1, 1, 1)
+level1000.TextSize = 14
+level1000.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/aGcwp65W'),true))()
+end)
+
+hotel.Name = "hotel"
+hotel.Parent = level1000
+hotel.BackgroundTransparency = 1
+hotel.LayoutOrder = 4
+hotel.Position = UDim2.new(0.0621761642, 0, 0.307692319, 0)
+hotel.Size = UDim2.new(0, 25, 0, 25)
+hotel.ZIndex = 2
+hotel.Image = "rbxassetid://3926305904"
+hotel.ImageRectOffset = Vector2.new(256, 4)
+hotel.ImageRectSize = Vector2.new(24, 24)
+
+staminaframe.Name = "staminaframe"
+staminaframe.Parent = scriptholder
+staminaframe.BackgroundColor3 = Color3.new(0.0941176, 0.0941176, 0.0941176)
+staminaframe.BackgroundTransparency = 1
+staminaframe.BorderColor3 = Color3.new(0, 0, 0)
+staminaframe.Position = UDim2.new(0, 0, 0.271966547, 0)
+staminaframe.Size = UDim2.new(0, 193, 0, 70)
+
+staminascript.Name = "staminascript"
+staminascript.Parent = staminaframe
+staminascript.BackgroundColor3 = Color3.new(0.0941176, 0.0941176, 0.0941176)
+staminascript.BorderColor3 = Color3.new(0, 0, 0)
+staminascript.Position = UDim2.new(1.07253885, 0, -1.67142844, 0)
+staminascript.Size = UDim2.new(0, 193, 0, 65)
+staminascript.Font = Enum.Font.Gotham
+staminascript.Text = "Stamina"
+staminascript.TextColor3 = Color3.new(1, 1, 1)
+staminascript.TextSize = 14
+speedscript.MouseButton1Click:Connect(function()
+	local RunService = game:GetService("RunService")
+	RunService.RenderStepped:connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 21
+end)
+end)
+
+local_car_wash_2.Name = "local_car_wash"
+local_car_wash_2.Parent = staminascript
+local_car_wash_2.BackgroundTransparency = 1
+local_car_wash_2.LayoutOrder = 11
+local_car_wash_2.Position = UDim2.new(0.0569948182, 0, 0.314285725, 0)
+local_car_wash_2.Size = UDim2.new(0, 25, 0, 25)
+local_car_wash_2.ZIndex = 2
+local_car_wash_2.Image = "rbxassetid://3926305904"
+local_car_wash_2.ImageRectOffset = Vector2.new(924, 844)
+local_car_wash_2.ImageRectSize = Vector2.new(36, 36)
+
+reactframe.Name = "react frame"
+reactframe.Parent = scriptholder
+reactframe.BackgroundColor3 = Color3.new(0.0941176, 0.0941176, 0.0941176)
+reactframe.BackgroundTransparency = 1
+reactframe.BorderColor3 = Color3.new(0, 0, 0)
+reactframe.Position = UDim2.new(0.529126227, 0, 0.435146451, 0)
+reactframe.Size = UDim2.new(0, 182, 0, 65)
+
+react.Name = "react"
+react.Parent = reactframe
+react.BackgroundColor3 = Color3.new(0.0941176, 0.0941176, 0.0941176)
+react.BorderColor3 = Color3.new(0, 0, 0)
+react.Position = UDim2.new(-0.0659340695, 0, -1.86153853, 0)
+react.Size = UDim2.new(0, 193, 0, 65)
+react.Font = Enum.Font.Gotham
+react.Text = "Better react"
+react.TextColor3 = Color3.new(1, 1, 1)
+react.TextSize = 14
+react.MouseButton1Click:Connect(function()
+	local Players = game:GetService("Players")
+	local IPlayer = Players:GetPlayers()
+	for i,v in pairs(IPlayer.Character) do
+		if v.Name == "Torso" or "Right Leg" or "Left Leg" then
+			v.CanCollide = false
+		end
+	end
+end)
+
+mood.Name = "mood"
+mood.Parent = react
+mood.BackgroundTransparency = 1
+mood.LayoutOrder = 5
+mood.Position = UDim2.new(0.0569948182, 0, 0.307692319, 0)
+mood.Size = UDim2.new(0, 25, 0, 25)
+mood.ZIndex = 2
+mood.Image = "rbxassetid://3926305904"
+mood.ImageRectOffset = Vector2.new(244, 804)
+mood.ImageRectSize = Vector2.new(36, 36)
+
+deleteanticheatframe.Name = "delete anti cheat frame"
+deleteanticheatframe.Parent = scriptholder
+deleteanticheatframe.BackgroundColor3 = Color3.new(0.0941176, 0.0941176, 0.0941176)
+deleteanticheatframe.BackgroundTransparency = 1
+deleteanticheatframe.BorderColor3 = Color3.new(0, 0, 0)
+deleteanticheatframe.Position = UDim2.new(0.589805841, 0, 0.271966517, 0)
+deleteanticheatframe.Size = UDim2.new(0, 100, 0, 100)
+
+MoreScripts.Name = "MoreScripts!"
+MoreScripts.Parent = deleteanticheatframe
+MoreScripts.BackgroundColor3 = Color3.new(0.0941176, 0.0941176, 0.0941176)
+MoreScripts.BorderColor3 = Color3.new(0, 0, 0)
+MoreScripts.Position = UDim2.new(-2.43408751, 0, 0.420000017, 0)
+MoreScripts.Size = UDim2.new(0, 400, 0, 50)
+MoreScripts.Font = Enum.Font.Gotham
+MoreScripts.Text = " MORE SCRIPTS!"
+MoreScripts.TextColor3 = Color3.new(1, 1, 1)
+MoreScripts.TextSize = 30
+MoreScripts.MouseButton1Click:Connect(function()
+	local MoreScripts = Instance.new("ScreenGui")
+	local MiniGUI = Instance.new("TextLabel")
+	local ReachNoTool = Instance.new("TextButton")
+	local FloatBall = Instance.new("TextButton")
+	local Admin = Instance.new("TextButton")
+	local Gamepass = Instance.new("TextButton")
+	local Title = Instance.new("TextLabel")
+	local Close = Instance.new("TextButton")
+	local Open = Instance.new("TextButton")
+
+	MoreScripts.Name = "MoreScripts"
+	MoreScripts.Parent = game.CoreGui
+
+	MiniGUI.Name = "MiniGUI"
+	MiniGUI.Parent = MoreScripts
+	MiniGUI.BackgroundColor3 = Color3.new(1, 1, 1)
+	MiniGUI.Position = UDim2.new(0.70769769, 0, 0.370776564, 0)
+	MiniGUI.Size = UDim2.new(0, 246, 0, 175)
+	MiniGUI.Font = Enum.Font.SourceSansBold
+	MiniGUI.Text = ""
+	MiniGUI.TextColor3 = Color3.new(0, 0, 0)
+	MiniGUI.TextSize = 30
+
+	ReachNoTool.Name = "Reach No Tool"
+	ReachNoTool.Parent = MiniGUI
+	ReachNoTool.BackgroundColor3 = Color3.new(0.298039, 1, 0.862745)
+	ReachNoTool.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+	ReachNoTool.Position = UDim2.new(0.0512330532, 0, 0.692551792, 0)
+	ReachNoTool.Size = UDim2.new(0, 221, 0, 43)
+	ReachNoTool.Font = Enum.Font.Gotham
+	ReachNoTool.Text = "Reach No Tool"
+	ReachNoTool.TextColor3 = Color3.new(0, 0, 0)
+	ReachNoTool.TextSize = 25
+	ReachNoTool.MouseButton1Down:connect(function()
+		local TPS = game.Workspace.TPSSystem.TPS
+		local Torso = game.Workspace.Name.Torso
+
+		while true do 
+			wait()
+			game.Workspace.FE.GK.Save5:FireServer(TPS, Torso)
+		end
+	end)
+
+	FloatBall.Name = "Float Ball"
+	FloatBall.Parent = MiniGUI
+	FloatBall.BackgroundColor3 = Color3.new(0.298039, 1, 0.862745)
+	FloatBall.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+	FloatBall.Position = UDim2.new(0.0512330532, 0, 0.346584737, 0)
+	FloatBall.Size = UDim2.new(0, 64, 0, 43)
+	FloatBall.Font = Enum.Font.Gotham
+	FloatBall.Text = "Float Ball"
+	FloatBall.TextColor3 = Color3.new(0, 0, 0)
+	FloatBall.TextSize = 13
+	FloatBall.MouseButton1Down:connect(function()
+		local TPS = game.Workspace.TPSSystem.TPS
+		local Torso = game.Workspace.Name.Torso
+
+		while true do 
+			wait()
+			game.Workspace.FE.GK.Save5:FireServer(TPS, Torso)
+		end
+	end)
+
+	Admin.Name = "Admin"
+	Admin.Parent = MiniGUI
+	Admin.BackgroundColor3 = Color3.new(0.298039, 1, 0.862745)
+	Admin.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+	Admin.Position = UDim2.new(0.365429878, 0, 0.346584797, 0)
+	Admin.Size = UDim2.new(0, 64, 0, 43)
+	Admin.Font = Enum.Font.Gotham
+	Admin.Text = "Admin"
+	Admin.TextColor3 = Color3.new(0, 0, 0)
+	Admin.TextSize = 16
+	Admin.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet('https://pastebin.com/raw/fNWxsXty'))()
+	end)
+
+	Gamepass.Name = "Gamepass"
+	Gamepass.Parent = MiniGUI
+	Gamepass.BackgroundColor3 = Color3.new(0.298039, 1, 0.862745)
+	Gamepass.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+	Gamepass.Position = UDim2.new(0.688737333, 0, 0.346584737, 0)
+	Gamepass.Size = UDim2.new(0, 64, 0, 43)
+	Gamepass.Font = Enum.Font.Gotham
+	Gamepass.Text = "Gamepass"
+	Gamepass.TextColor3 = Color3.new(0, 0, 0)
+	Gamepass.TextSize = 12
+	Gamepass.MouseButton1Down:connect(function()
+		local Event = game:GetService("Workspace").FE.Store.Unstoppable1
+		Event:FireServer()
+	end)
+
+	Title.Name = "Title"
+	Title.Parent = MiniGUI
+	Title.BackgroundColor3 = Color3.new(1, 1, 1)
+	Title.BackgroundTransparency = 1
+	Title.Position = UDim2.new(0.0899224579, 0, -0.00178309157, 0)
+	Title.Size = UDim2.new(0, 200, 0, 50)
+	Title.Font = Enum.Font.SourceSansBold
+	Title.Text = "MORE SCRIPTS!"
+	Title.TextColor3 = Color3.new(0, 0, 0)
+	Title.TextSize = 20
+
+	Close.Name = "Close"
+	Close.Parent = MiniGUI
+	Close.BackgroundColor3 = Color3.new(1, 0.00392157, 0.0509804)
+	Close.Position = UDim2.new(0.849741459, 0, -0.000849425793, 0)
+	Close.Size = UDim2.new(0, 36, 0, 30)
+	Close.Font = Enum.Font.SourceSansBold
+	Close.Text = "X"
+	Close.TextColor3 = Color3.new(0, 0, 0)
+	Close.TextSize = 30
+
+	Open.Name = "Open"
+	Open.Parent = MiniGUI
+	Open.BackgroundColor3 = Color3.new(1, 1, 1)
+	Open.Position = UDim2.new(7.637, 0, 254.399, 0)
+	Open.Size = UDim2.new(0, 200, 0, 50)
+	Open.Font = Enum.Font.Gotham
+	Open.Text = "Open"
+	Open.TextColor3 = Color3.new(0, 0, 0)
+	Open.TextSize = 14
+	Open.Visible = false
+
+	Close.MouseButton1Down:connect(function()
+		Open.Visible = true
+		Close.Visible = false
+		MiniGUI.Visible = false
+	end)
+
+	Open.MouseButton1Down:connect(function()
+		Open.Visible = false
+		Close.Visible = true
+		MiniGUI.Visible = true
+	end)
+end)
+
+done.Name = "done"
+done.Parent = MoreScripts
+done.BackgroundTransparency = 1
+done.LayoutOrder = 4
+done.Position = UDim2.new(0.115000002, 0, 0.140000001, 0)
+done.Size = UDim2.new(0, 40, 0, 30)
+done.ZIndex = 2
+done.Image = "rbxassetid://3926305904"
+done.ImageRectOffset = Vector2.new(644, 204)
+done.ImageRectSize = Vector2.new(36, 36)
+
+creditsframe.Name = "creditsframe"
+creditsframe.Parent = heart
+creditsframe.BackgroundColor3 = Color3.new(1, 1, 1)
+creditsframe.BackgroundTransparency = 1
+creditsframe.BorderColor3 = Color3.new(0, 0, 0)
+creditsframe.Position = UDim2.new(0.171698108, 0, 0.0842490867, 0)
+creditsframe.Size = UDim2.new(0, 432, 0, 229)
+creditsframe.Visible = false
+
+TextLabel.Parent = creditsframe
+TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel.BackgroundTransparency = 1
+TextLabel.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel.Position = UDim2.new(0.3125, 0, -0.432314396, 0)
+TextLabel.Size = UDim2.new(0, 131, 0, 229)
+TextLabel.Font = Enum.Font.Gotham
+TextLabel.Text = "CREDITS"
+TextLabel.TextColor3 = Color3.new(1, 1, 1)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 12
+TextLabel.TextWrapped = true
+
+check.Name = "check"
+check.Parent = TextLabel
+check.BackgroundTransparency = 1
+check.LayoutOrder = 5
+check.Position = UDim2.new(-0.278778613, 0, 0.441048026, 0)
+check.Size = UDim2.new(0, 25, 0, 25)
+check.ZIndex = 2
+check.Image = "rbxassetid://3926305904"
+check.ImageRectOffset = Vector2.new(312, 4)
+check.ImageRectSize = Vector2.new(24, 24)
+
+check_2.Name = "check"
+check_2.Parent = TextLabel
+check_2.BackgroundTransparency = 1
+check_2.LayoutOrder = 5
+check_2.Position = UDim2.new(1.06359613, 0, 0.440460622, 0)
+check_2.Size = UDim2.new(0, 25, 0, 25)
+check_2.ZIndex = 2
+check_2.Image = "rbxassetid://3926305904"
+check_2.ImageRectOffset = Vector2.new(312, 4)
+check_2.ImageRectSize = Vector2.new(24, 24)
+
+TextLabel_2.Parent = creditsframe
+TextLabel_2.BackgroundColor3 = Color3.new(0.0941177, 0.0941177, 0.0941177)
+TextLabel_2.BorderColor3 = Color3.new(0.0941177, 0.0941177, 0.0941177)
+TextLabel_2.Position = UDim2.new(0.0146553516, 0, 0.205240175, 0)
+TextLabel_2.Size = UDim2.new(0, 128, 0, 75)
+TextLabel_2.Font = Enum.Font.Gotham
+TextLabel_2.Text = "Developer"
+TextLabel_2.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_2.TextSize = 17
+
+TextLabel_3.Parent = TextLabel_2
+TextLabel_3.BackgroundColor3 = Color3.new(0.0941177, 0.0941177, 0.0941177)
+TextLabel_3.BorderColor3 = Color3.new(0.0941177, 0.0941177, 0.0941177)
+TextLabel_3.Position = UDim2.new(1.21559763, 0, 0.00824788399, 0)
+TextLabel_3.Size = UDim2.new(0, 263, 0, 74)
+TextLabel_3.Font = Enum.Font.Gotham
+TextLabel_3.Text = "David De Gea#4581"
+TextLabel_3.TextColor3 = Color3.new(0, 0, 0)
+TextLabel_3.TextSize = 20
+
+TextLabel_4.Parent = TextLabel_2
+TextLabel_4.BackgroundColor3 = Color3.new(0.0941177, 0.0941177, 0.0941177)
+TextLabel_4.BorderColor3 = Color3.new(0.0941177, 0.0941177, 0.0941177)
+TextLabel_4.Position = UDim2.new(1.21559763, 0, 1.10158122, 0)
+TextLabel_4.Size = UDim2.new(0, 263, 0, 74)
+TextLabel_4.Font = Enum.Font.Gotham
+TextLabel_4.Text = "minish#9655"
+TextLabel_4.TextColor3 = Color3.new(0, 0, 0)
+TextLabel_4.TextSize = 20
+
+TextLabel_5.Parent = creditsframe
+TextLabel_5.BackgroundColor3 = Color3.new(0.0941177, 0.0941177, 0.0941177)
+TextLabel_5.BorderColor3 = Color3.new(0.0941177, 0.0941177, 0.0941177)
+TextLabel_5.Position = UDim2.new(0.0146553516, 0, 0.567685604, 0)
+TextLabel_5.Size = UDim2.new(0, 128, 0, 75)
+TextLabel_5.Font = Enum.Font.Gotham
+TextLabel_5.Text = "Scripter"
+TextLabel_5.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_5.TextSize = 17
+
+update_2.Name = "update"
+update_2.Parent = heart
+update_2.Active = true
+update_2.BackgroundColor3 = Color3.new(0.0941176, 0.0941176, 0.0941176)
+update_2.BorderColor3 = Color3.new(0, 0, 0)
+update_2.Position = UDim2.new(0.162264153, 0, 0.0476190485, 0)
+update_2.Size = UDim2.new(0, 427, 0, 236)
+update_2.Visible = false
+update_2.VerticalScrollBarPosition = Enum.VerticalScrollBarPosition.Left
+
+TextLabel_6.Parent = update_2
+TextLabel_6.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_6.BackgroundTransparency = 1
+TextLabel_6.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel_6.Position = UDim2.new(0.264636993, 0, 0.012820513, 0)
+TextLabel_6.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_6.Font = Enum.Font.GothamSemibold
+TextLabel_6.Text = "<u>V1.0.0</u>"
+TextLabel_6.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_6.TextSize = 30
+
+TextLabel_7.Parent = TextLabel_6
+TextLabel_7.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_7.BackgroundTransparency = 1
+TextLabel_7.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel_7.Position = UDim2.new(0, 0, 1, 0)
+TextLabel_7.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_7.Font = Enum.Font.GothamBold
+TextLabel_7.Text = "GUI released!"
+TextLabel_7.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_7.TextSize = 20
+TextLabel_7.TextWrapped = true
+
+Welcome.Name = "Welcome"
+Welcome.Parent = ScreenGui
+Welcome.BackgroundColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+Welcome.Position = UDim2.new(0.361736506, 0, 0.211975917, 0)
+Welcome.Size = UDim2.new(0, 441, 0, 366)
+Welcome.Visible = true
+
+shadowHolder.Name = "shadowHolder"
+shadowHolder.Parent = Welcome
+shadowHolder.BackgroundTransparency = 1
+shadowHolder.Size = UDim2.new(1, 0, 1, 0)
+
+Enter.Name = "Enter"
+Enter.Parent = shadowHolder
+Enter.BackgroundColor3 = Color3.new(0.278431, 1, 0.458824)
+Enter.BorderColor3 = Color3.new(0, 0, 0)
+Enter.BorderSizePixel = 0
+Enter.Position = UDim2.new(0.236607149, 0, 0.73198849, 0)
+Enter.Size = UDim2.new(0, 234, 0, 49)
+Enter.Font = Enum.Font.SourceSans
+Enter.Text = "Welcome"
+Enter.TextColor3 = Color3.new(1, 1, 1)
+Enter.TextSize = 30
+Enter.TextStrokeColor3 = Color3.new(1, 1, 1)
+Enter.MouseButton1Click:Connect(function()
+	Welcome.Visible = false
+	key.Visible = true
+end)
+
+logo.Name = "logo"
+logo.Parent = Welcome
+logo.BackgroundColor3 = Color3.new(1, 1, 1)
+logo.BorderColor3 = Color3.new(0, 0, 0)
+logo.BorderSizePixel = 0
+logo.Position = UDim2.new(0.441964269, 0, 0.302821994, 0)
+logo.Size = UDim2.new(0, 50, 0, 50)
+logo.Image = "https://www.roblox.com/library/6596578398/logo"
+
+key.Name = "key"
+key.Parent = ScreenGui
+key.Active = true
+key.BackgroundColor3 = Color3.new(0, 0, 0)
+key.BorderColor3 = Color3.new(0, 0, 0)
+key.Position = UDim2.new(0.361588001, 0, 0.211975917, 0)
+key.Size = UDim2.new(0, 442, 0, 367)
+key.Visible = false
+
+shadowHolder_2.Name = "shadowHolder"
+shadowHolder_2.Parent = key
+shadowHolder_2.BackgroundTransparency = 1
+shadowHolder_2.Size = UDim2.new(1, 0, 1, 0)
+
+key_2.Name = "key"
+key_2.Parent = key
+key_2.BackgroundColor3 = Color3.new(0.0941176, 0.0941176, 0.0941176)
+key_2.BorderColor3 = Color3.new(0, 0, 0)
+key_2.Position = UDim2.new(0.26886794, 0, 0.430517733, 0)
+key_2.Size = UDim2.new(0, 200, 0, 50)
+key_2.Font = Enum.Font.GothamBlack
+key_2.Text = "ENTER YOUR KEY"
+key_2.TextColor3 = Color3.new(1, 1, 1)
+key_2.TextSize = 24
+
+login.Name = "login"
+login.Parent = key
+login.BackgroundColor3 = Color3.new(0.0941176, 0.0941176, 0.0941176)
+login.BorderColor3 = Color3.new(0.0156863, 0.027451, 0.0352941)
+login.Position = UDim2.new(0.264150947, 0, 0.722070873, 0)
+login.Size = UDim2.new(0, 200, 0, 50)
+login.Font = Enum.Font.GothamBlack
+login.Text = "LOGIN"
+login.TextColor3 = Color3.new(1, 1, 1)
+login.TextSize = 14
+login.MouseButton1Click:Connect(function()
+	if key_2.Text == "kugmtontop" or
+		key_2.Text == "kugmtontop" or
+		key_2.Text == "kugmtontop" or 
+		key_2.Text == "kugmtontop" or 
+		key_2.Text == "kugmtontop" or 
+		key_2.Text == "kugmtontop" then
+		key.Visible = false
+		heart.Visible = true
+		select.Visible = true
+		credits.Visible = true
+		mps.Visible = true
+		tps.Visible = true
+		update.Visible = true
+	end
+end)
+
+shadowHolder_3.Name = "shadowHolder"
+shadowHolder_3.Parent = login
+shadowHolder_3.BackgroundTransparency = 1
+shadowHolder_3.Size = UDim2.new(1, 0, 1, 0)
+
+umbraShadow.Name = "umbraShadow"
+umbraShadow.Parent = shadowHolder_3
+umbraShadow.AnchorPoint = Vector2.new(0.5, 0.5)
+umbraShadow.BackgroundTransparency = 1
+umbraShadow.Position = UDim2.new(0.5, 0, 0.5, 0)
+umbraShadow.Size = UDim2.new(1, 2, 1, 2)
+umbraShadow.Image = "rbxassetid://1316045217"
+umbraShadow.ImageColor3 = Color3.new(0, 0, 0)
+umbraShadow.ImageTransparency = 0.86000001430511
+umbraShadow.ScaleType = Enum.ScaleType.Slice
+umbraShadow.SliceCenter = Rect.new(10, 10, 118, 118)
+
+penumbraShadow.Name = "penumbraShadow"
+penumbraShadow.Parent = shadowHolder_3
+penumbraShadow.AnchorPoint = Vector2.new(0.5, 0.5)
+penumbraShadow.BackgroundTransparency = 1
+penumbraShadow.Position = UDim2.new(0.5, 0, 0.5, 0)
+penumbraShadow.Size = UDim2.new(1, 2, 1, 2)
+penumbraShadow.Image = "rbxassetid://1316045217"
+penumbraShadow.ImageColor3 = Color3.new(0, 0, 0)
+penumbraShadow.ImageTransparency = 0.87999999523163
+penumbraShadow.ScaleType = Enum.ScaleType.Slice
+penumbraShadow.SliceCenter = Rect.new(10, 10, 118, 118)
+
+ambientShadow_3.Name = "ambientShadow"
+ambientShadow_3.Parent = shadowHolder_3
+ambientShadow_3.AnchorPoint = Vector2.new(0.5, 0.5)
+ambientShadow_3.BackgroundTransparency = 1
+ambientShadow_3.Position = UDim2.new(0.504999995, 0, 0.479999989, 0)
+ambientShadow_3.Size = UDim2.new(1, 2, 1, 2)
+ambientShadow_3.Image = "rbxassetid://1316045217"
+ambientShadow_3.ImageColor3 = Color3.new(0, 0, 0)
+ambientShadow_3.ImageTransparency = 0.87999999523163
+ambientShadow_3.ScaleType = Enum.ScaleType.Slice
+ambientShadow_3.SliceCenter = Rect.new(10, 10, 118, 118)
+
+TitleKey.Name = "TitleKey"
+TitleKey.Parent = key
+TitleKey.BackgroundColor3 = Color3.new(0, 0, 0)
+TitleKey.BorderColor3 = Color3.new(0, 0, 0)
+TitleKey.Position = UDim2.new(0.173038542, 0, 0.142961383, 0)
+TitleKey.Size = UDim2.new(0, 295, 0, 50)
+TitleKey.Font = Enum.Font.Gotham
+TitleKey.Text = "KUGMT LOGIN SYSTEM"
+TitleKey.TextColor3 = Color3.new(1, 1, 1)
+TitleKey.TextSize = 25
+
+tps.MouseButton1Down:connect(function()
+	mpsframe.Visible = false
+	creditsframe.Visible = false
+	update_2.Visible = false
+	tpsframe.Visible = true
+	mpsscriptholder.Visible = false
+	scriptholder.Visible = true
+end)
+
+mps.MouseButton1Down:connect(function()
+	tpsframe.Visible = false
+	mpsframe.Visible = true
+	scriptholder.Visible = false
+	mpsscriptholder.Visible = true
+	creditsframe.Visible = false
+	update_2.Visible = false
+end)
+
+credits.MouseButton1Down:connect(function()
+	tpsframe.Visible = false
+	mpsframe.Visible = false
+	scriptholder.Visible = false
+	mpsscriptholder.Visible = false
+	creditsframe.Visible = true
+	update_2.Visible = false
+end)
+
+update.MouseButton1Down:connect(function()
+	tpsframe.Visible = false
+	mpsframe.Visible = false
+	scriptholder.Visible = false
+	mpsscriptholder.Visible = false
+	creditsframe.Visible = false
+	update_2.Visible = true
+end)
+
+function onKeyPress(inputObject, gameProcessedEvent)
+	if inputObject.KeyCode == Enum.KeyCode.P then
+		if heart.Visible == false then
+			heart.Visible = true
+		else
+			heart.Visible = false
+		end
+	end
+end
+
+game:GetService("UserInputService").InputBegan:connect(onKeyPress)
+
+
+
+
+
+
+
+
+
+
+
